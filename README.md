@@ -1,23 +1,23 @@
 # Games-Classification
 
-Este é um projeto de classificação de jogos, que coleta dados de vários jogos através de um processo de scraping da página do Metacritic. Em seguida, todos os dados são tratados e usados para treinar um modelo de classificação.
+This is a game rating project, which collects data from various games through a Metacritic page scraping process. Then all the data is processed and used to train a classification model.
 
-## Parte 1: Scraping de dados
-A primeira parte deste projeto é o scraping de dados dos jogos presentes nas páginas do Metacritic, realizado através da biblioteca Selenium do Python. Os links das páginas de cada jogo foram salvos em um arquivo txt, enquanto que os dados a seguir foram salvos em um arquivo json:
+## Part 1: Data Scraping
+The first part of this project is the data scraping of the games present in the pages of Metacritic, carried out through the Selenium Python library. The page links for each game were saved in a txt file, while the following data was saved in a json file:
 
-- Título
-- Data de lançamento
-- Plataforma
+- Title
+- Release date of
+- Platform
 - Metascore
-- Quantidade de comentários dos críticos
+- Number of reviews from critics
 - User score
-- Quantidade de avaliações dos usuários
-- Desenvolvedor do jogo
-- Gênero
-- Quantidade de jogadores
+- Number of user ratings
+- game developer
+- Gender
+- Number of players
 
-## Parte 2: Tratamento de dados
-Na segunda parte deste projeto, todos os dados coletados são tratados para garantir sua consistência e utilidade. Isso inclui a limpeza de valores faltantes, a conversão de dados para o formato correto e a codificação de dados categóricos.
+## Part 2: Data tratament
+In the second part of this project, all collected data is treated to ensure its consistency and usefulness. This includes cleaning up missing values, converting data to the correct format, and encoding categorical data.
 
-## Parte 3: Treinamento do modelo de classificação
-Na terceira e última parte deste projeto, os dados tratados são usados para treinar um modelo de classificação. Este modelo é usado para prever a pontuação do metascore de um jogo com base em outras informações, como o desenvolvedor do jogo e o gênero.
+## Part 3: Classification model training
+In the third and last part of this project, the processed data is used to train a classification model. This model is used to predict a game's metascore score based on other information such as game developer and genre.
