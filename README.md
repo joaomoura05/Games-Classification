@@ -16,7 +16,7 @@ The first part of this project is the data scraping of the games present in the 
 - Gender
 - Number of players
 
-## Part 2: Data tratament
+## Part 2: Data processing
 In the second part of this project, all collected data is treated to ensure its consistency and usefulness. This includes cleaning up missing values, converting data to the correct format, and encoding categorical data.
 
 ## Part 3: Classification model training
