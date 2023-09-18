@@ -6,13 +6,13 @@ This is a game rating project, which collects data from various games through a 
 The first part of this project is the data scraping of the games present in the pages of Metacritic, carried out through the Selenium Python library. The page links for each game were saved in a txt file, while the following data was saved in a json file:
 
 - Title
-- Release date of
+- Release date 
 - Platform
 - Metascore
 - Number of reviews from critics
 - User score
 - Number of user ratings
-- game developer
+- Game developer
 - Gender
 - Number of players
 
