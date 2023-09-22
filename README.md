@@ -1,7 +1,5 @@
 # Games-Classification
 
-This is a game rating project, which collects data from various games through a Metacritic page scraping process. Then all the data is processed and used to train a classification model.
-
 ## Part 1: Data Scraping
 The first part of this project is the data scraping of the games present in the pages of Metacritic, carried out through the Selenium Python library. The page links for each game were saved in a txt file, while the following data was saved in a json file:
 
